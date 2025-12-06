@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join DreamForge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-orbit" aria-hidden="true">
+    <div class="bg-blob"></div>
+    <div class="bg-blob"></div>
+    <div class="bg-blob"></div>
+  </div>
+
+  <header class="navbar">
+  <div class="nav-inner">
+    <!-- LEFT : LOGO + TEXT -->
+    <div class="brand">
+      <div class="brand-logo">
+        <img src="img.jpg" alt="The Dream Forge logo">
+      </div>
+      <div>
+        <div class="brand-text-main">DreamForge</div>
+        <div class="brand-text-sub">Game Dev Collective</div>
+      </div>
+    </div>
+
+    <!-- RIGHT : NAV LINKS -->
+    <nav class="nav-links">
+      <a href="index.html" >Home</a>
+      <a href="games.html">Games</a>
+      <a href="about.html">About</a>
+      <a href="join.html" class="active">Join</a>
+      <a class="nav-cta" href="join.html">
+        Join as Dev
+        <span>➜</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="container">
+    <!-- PANEL: JOIN / APPLY -->
+    <section id="join" class="panel">
+      <div class="section-label">Join the Squad</div>
+      <div class="section-title">Apply as a game developer</div>
+      <div class="section-sub">
+        Serious ho game dev ke liye? Yeh form fill karo. Hum time-pass nahi, 
+        consistent log dhundh rahe hain.
+      </div>
+
+      <div class="form-grid">
+        <article class="card">
+          <div class="card-highlight"></div>
+          <form id="join-form" class="form" onsubmit="return false;">
+            <div class="field">
+              <label for="name">Full name *</label>
+              <input id="name" name="name" placeholder="Your name" required />
+              <div class="error" id="error-name">Please enter your name.</div>
+            </div>
+
+            <div class="field">
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              <div class="error" id="error-email">Please enter a valid email.</div>
+            </div>
+
+            <div class="field">
+              <label for="discord">Discord / Telegram ID</label>
+              <input id="discord" name="discord" placeholder="@your_handle" />
+              <div class="hint">Isse hum tumhe internal group me add kar sakte hain.</div>
+            </div>
+
+            <div class="field">
+              <label for="role">Primary role *</label>
+              <select id="role" name="role" required>
+                <option value="">Select your primary role</option>
+                <option value="game-dev">Game Developer (Unity / Unreal / Godot)</option>
+                <option value="programmer">Programmer (C#, C++, scripting)</option>
+                <option value="designer">Game Designer / Level Designer</option>
+                <option value="artist">2D/3D Artist / UI Artist</option>
+                <option value="sound">Sound / Music</option>
+                <option value="other">Other – I just love games</option>
+              </select>
+              <div class="error" id="error-role">Please select a role.</div>
+            </div>
+
+            <div class="field">
+              <label for="skills">Skills & tools you know *</label>
+              <textarea id="skills" name="skills" placeholder="Unity, C#, Blender, Photoshop..."></textarea>
+              <div class="error" id="error-skills">Please write a few lines about your skills.</div>
+            </div>
+
+            <div class="field">
+              <label for="portfolio">Portfolio / GitHub / Play Store links</label>
+              <input id="portfolio" name="portfolio" placeholder="Links to any games or projects you've made" />
+              <div class="hint">Beginner ho to bhi chalega – honestly likho.</div>
+            </div>
+
+            <div class="field">
+              <label for="reason">Why do you want to join DreamForge? *</label>
+              <textarea
+                id="reason"
+                name="reason"
+                placeholder="3–4 lines me likho: kya seekhna hai & kya contribute kar sakte ho."
+              ></textarea>
+              <div class="error" id="error-reason">Please share your reason in a few lines.</div>
+            </div>
+
+            <div class="field">
+              <label for="time">How many hours per week can you give? *</label>
+              <input id="time" name="time" placeholder="Example: 5–8 hours per week" />
+              <div class="error" id="error-time">Please mention a realistic time commitment.</div>
+            </div>
+
+            <button class="btn btn-primary" id="submit-btn" type="submit">
+              Submit your application
+              <span>🚀</span>
+            </button>
+            <div class="success-msg" id="success-msg">
+              Front-end se form submit ho gaya. Ab isko Google Sheet / backend se connect karna hai responses save karne ke liye.
+            </div>
+          </form>
+        </article>
+
+        <article class="card">
+          <div class="card-highlight"></div>
+          <h3 class="card-title">Who we are looking for</h3>
+          <p class="card-sub">
+            Expert nahi, genuine interest chahiye. Thoda basic knowledge + learn karne ka mood ho.
+          </p>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <div class="timeline-label">Beginners with fire</div>
+                <div>Thode tutorials kiye ho, par seriously game dev banna hai.</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <div class="timeline-label">Students & side-hustlers</div>
+                <div>College/study ke saath 4–8 ghante hafte me nikaal sakte ho.</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div>
+                <div class="timeline-label">Team players</div>
+                <div>Feedback le sakte ho, deadlines respect karte ho, aur team me kaam pasand hai.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="badge-row" style="margin-top: 16px;">
+            <div class="badge">No toxic attitude</div>
+            <div class="badge">Credit for your work</div>
+            <div class="badge">Learning-focused</div>
+            <div class="badge">Remote collaboration</div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- BIG FOOTER (reused on all pages) -->
+ <!-- BIG FOOTER (single instance) -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-brand-col">
+      <div class="brand-logo footer-logo">
+        <img src="img.jpg" alt="The Dream Forge logo">
+      </div>
+      <h3>The Dream Forge</h3>
+      <p>
+        A student-led game development community where ideas turn into
+        Play Store-ready games. Built by B.Tech CSE students & young creators.
+      </p>
+      <p class="footer-tagline">“Build small. Ship fast. Learn forever.”</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Community</h4>
+      <ul>
+        <li><a href="about.html">About DreamForge</a></li>
+        <li><a href="join.html">Join as Game Developer</a></li>
+        <li><a href="games.html">Our Games on Android</a></li>
+        <li><a href="contact.html">Collaborations & Events</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Game dev stack</h4>
+      <ul>
+        <li>Unity (C#)</li>
+        <li>Godot (prototyping)</li>
+        <li>Figma / Photoshop for UI</li>
+        <li>GitHub-based workflow</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect with us</h4>
+      <ul>
+        <li><a href="mailto:your-email@example.com">📧 Email: your-email@example.com</a></li>
+        <li><a href="#" target="_blank">🎮 Play Store: DreamForge Games</a></li>
+        <li><a href="#" target="_blank">📸 Instagram: @dreamforge.games</a></li>
+        <li><a href="#" target="_blank">💬 Discord: Community server invite</a></li>
+        <li><a href="#" target="_blank">🐙 GitHub: organization / portfolio</a></li>
+        <li><a href="#" target="_blank">🔗 LinkedIn: Founder – Bhavesh Pohani</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> DreamForge Game Dev Community. All rights reserved.</span>
+    <span>Crafted by the DreamForge core team • Founder: Bhavesh Pohani</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
