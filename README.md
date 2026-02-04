@@ -37,6 +37,31 @@ dreamforge-proj/
 ├── index.html           # Entry point
 └── README.md
 ```
+## 🧠 How It Works
+1. The frontend is built using HTML, CSS, and JavaScript.
+2. The UI is designed around a gaming & developer community theme.
+3. JavaScript handles basic interactivity.
+4. Backend and community features will be added in future updates.
 
+## 🚧 Project Status
+🔄 In Progress
+✅ Frontend (Community UI) completed
+⏳ Backend & real-time community features coming soon
+
+## 📌 Future Scope
+👥 Developer profiles
+💬 Community discussions & forums
+🎮 Game showcase section
+🔗 Backend & database integration
+🔐 Authentication system
+
+
+## Screenshot
+![one](intern.png)
+
+
+### 📬 Contact
+Have any questions or want to connect?
+Reach me here: 🔗 [Linktree](https://linktr.ee/hemantsharma22?fbclid=PAQ0xDSwLbT41leHRuA2FlbQIxMQABp6bFdMywhk2GzbSiCfWfDCb8gXvykT8vF0bZEOt6SykMrXjh5t9-hKWpy3Ak_aem_0I6JJKhw2812C9Gu80zg5A) - All My Links
 
 
