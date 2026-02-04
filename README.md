@@ -57,7 +57,7 @@ dreamforge-proj/
 
 
 ## Screenshot
-![one](intern.png)
+![one](df.png)
 
 
 ### 📬 Contact
