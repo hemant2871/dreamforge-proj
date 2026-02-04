@@ -44,16 +44,16 @@ dreamforge-proj/
 4. Backend and community features will be added in future updates.
 
 ## 🚧 Project Status
-🔄 In Progress
-✅ Frontend (Community UI) completed
-⏳ Backend & real-time community features coming soon
+1. 🔄 In Progress
+2. ✅ Frontend (Community UI) completed
+3. ⏳ Backend & real-time community features coming soon
 
 ## 📌 Future Scope
-👥 Developer profiles
-💬 Community discussions & forums
-🎮 Game showcase section
-🔗 Backend & database integration
-🔐 Authentication system
+1. 👥 Developer profiles
+2. 💬 Community discussions & forums
+3. 🎮 Game showcase section
+4. 🔗 Backend & database integration
+5. 🔐 Authentication system
 
 
 ## Screenshot
